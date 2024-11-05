@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Montserrat;
+}
+
+body {
+    background: #1b1a1a;
+    color: #fff;
+}
+
+header {
+    color: #fff;
+    background: url("./img/Header.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0;
+}
+
+nav {
+    color: #fff;
+    background: #282828;
+    padding: 10px;
+}
+
+.all_N {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.ul_li {
+    margin-bottom: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.li_ul {
+    cursor: pointer;
+}
+
+.all_I {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_logo {
+    cursor: pointer;
+}
+
+.all_H {
+    text-align: center;
+}
+
+.h1_H {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.btn_H {
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.p_S {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.p_S_02 {
+    text-align: end;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.p_S_03 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.img_S_01 {
+    width: 100%;
+}
+
+.div_line {
+    border: 1px solid #C4C4C4;
+}
+
+.card {
+    padding: 10px;
+    width: 80%;
+    background: #fff;
+    text-align: center;
+}
+
+.h6_M {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.iphone {
+    width: 125px;
+    margin: auto;
+    height: 160px;
+}
+
+.p_M {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn_M {
+    text-align: center;
+    width: 161px;
+    margin: auto;
+    height: 34px;
+    background: #151515;
+    border: none;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+footer{
+    margin-top: 50px;
+    padding: 30px 0;
+    background: #282828;
+}
